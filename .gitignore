@@ -1,0 +1,30 @@
+# WordPress core files
+/wp-admin/
+/wp-includes/
+/wp-content/plugins/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore node modules and dependencies (if any)
+node_modules/
+vendor/
+
+# Ignore environment files
+.env
+
+# Ignore compiled files
+*.min.js
+*.min.css
